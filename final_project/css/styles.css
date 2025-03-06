@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body{
-    background-color: rebeccapurple;
+    background-color: rgb(68, 154, 239);
 }
 
 img{
@@ -11,14 +11,14 @@ img{
 }
 
 #container {
-    background-color: lightblue;
+    background-color: rgb(247, 136, 234);
 }
 
 /* Mobile Styles */
 
 @media (min-width: 320px) {
     nav{
-        background-color: lightcyan;
+        background-color: rgb(180, 83, 245);
         padding: 5px;
         margin-top: 10px;
         text-align: center;
@@ -34,14 +34,14 @@ img{
         display: block;
         height: 30px;
         line-height: 30px;
-        background-color: aqua;
+        background-color: rgb(92, 53, 234);
         color: black;
         font-size: 24px;
         text-decoration: none;
         margin-top: 5px;
     }
     nav li a:hover {
-        background-color: deeppink;
+        background-color: rgb(245, 78, 167);
     }
 
     main {
@@ -50,14 +50,15 @@ img{
 
     h1, h2, h3, h4 {
         text-align: center;
-        color: pink;
+        color: rgb(176, 30, 132);
         text-shadow: 1px 1px 1px black;
+        font-family: "Raleway", sans-serif;
     }
 
     footer {
         text-align: center;
         padding: 40px;
-        color: rgb(172, 85, 172);
+        color: rgb(64, 135, 242);
     }
 }
 
@@ -96,7 +97,7 @@ img{
     }
     
     nav li a {
-        background-color: rgb(36, 6, 120);
+        background-color: rgb(84, 6, 120);
     }
 
     hr {
